@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.poly.myapplication.MainActivity">
+
+    <android.support.v7.widget.AppCompatEditText
+       android:id="@+id/etNberOne"
+       android:inputType="number"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/etNberTwo"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnPlus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/plus" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnMinus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/minus" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnMultiply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/multiply" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnDivide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/divide" />
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="40sp"
+
+        />
+
+
+
+
+
+</LinearLayout>
